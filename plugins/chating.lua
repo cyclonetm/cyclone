@@ -1,51 +1,51 @@
 local function run(msg)
 if msg.text == "hi" then
-	return "Hello bb"
+	return "سلام"
 end
 if msg.text == "Hi" then
-	return "Hello honey"
+	return "سلام عزیزم"
 end
 if msg.text == "Hello" then
-	return "Hi bb"
+	return "سلام بچه جون"
 end
 if msg.text == "hello" then
-	return "Hi honey"
+	return "سلام کسکش"
 end
 if msg.text == "Salam" then
-	return "Salam aleykom"
+	return "سلام"
 end
 if msg.text == "salam" then
-	return "va aleykol asalam"
+	return "علیک"
 end
-if msg.text == "BossTG" then
-	return "Sardare shoma"
+if msg.text == "CycloneTG" then
+	return "پرچمش بالاس"
 end
-if msg.text == "Boss" then
-	return "sardar"
+if msg.text == "Cyclone" then
+	return "جووووون"
 end
 if msg.text == "kir" then
-	return "to konet"
+	return "تو کونت"
 end
-if msg.text == "boss" then
-	return "Yes?"
+if msg.text == "cyclone" then
+	return "جونم"
 end
-if msg.text == "boss" then
-	return "What?"
+if msg.text == "cyclone" then
+	return "جون"
 end
 if msg.text == "bot" then
-	return "hum?"
+	return "بله؟"
 end
 if msg.text == "Bot" then
-	return "Huuuum?"
+	return "باز چته؟"
 end
 if msg.text == "?" then
-	return "Hum??"
+	return "بسه دیگه کون گشاد سوال نپرس"
 end
 if msg.text == "Bye" then
-	return "Babay"
+	return "بابای"
 end
 if msg.text == "bye" then
-	return "Bye Bye"
+	return "بای بای"
 end
 end
 
@@ -55,10 +55,11 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^BossTG$",
-		"^Boss$",
+		"^CycloneTG$",
+		"^Cyclone$",
+                "^kir$",
 		"^[Bb]ot$",
-		"^boss$",
+		"^cyclone$",
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
