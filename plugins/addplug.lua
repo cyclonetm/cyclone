@@ -17,9 +17,10 @@ function run(msg, matches)
 end
 return {
   patterns = {
-  "^/(addplug) ([^%s]+) (.+)$"
+  "^(addplug) ([^%s]+) (.+)$",
+  "^([!/.#$&@]addplug) ([^%s]+) (.+)$"
   },
   run = run
 }
 end
--- create by @shervin_hacker
+-- create by Makan
