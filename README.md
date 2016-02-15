@@ -1,7 +1,7 @@
-# [BossTG](https://telegram.me/BossTG) 
+# [CycloneTG](https://telegram.me/CycloneTG) 
 
 
-**An advance and powerful Administration bot based on [TeleSeed](https://github.com/seedteam/TeleSeed)
+**An advance and powerful Administration bot based on [Telegram-bot](https://github.com/yagop/Telegram-bot)
 # Features
 
 * **A powerful Anti spam with custom sensitivity For each group**
@@ -28,29 +28,7 @@ sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgr
 
 # sudoers
 
-* [HaMeD](telegram.me/tehran980) = Sudo
-* [amin](telegram.me/Boy_Crazy) = Sudo
+* [MAKAN](telegram.me/XMAKAN) = Sudo
+* [AIDIN](telegram.me/XV3NOM) = Sudo
 
-# Special thanks to
-
-* [Shervin](telegram.me/shervin_hacker)
-* [Mrhalix](telegram.me/Mrhalix)
-
-
-# tehran980 Offline for ever
-
-* دوستان بابت مسائل خیلی مهم نتونستم بمونم تو تلگرام ولی این صفحه رو همیشه سعی میکنم اپدیت  میکنم در ضمن الان یوزر من روی کانالم قرار گرفته و دوستام دارن کانالمو اداره میکنن الان فقط تو 
-[MusicGold](musicgold.loxblog.com)
-و
-[iteghamed](hamedahmadi243.iteg.ir)
-در دسترس هستم
-
-# Pull request
-* you can send pull request for edit and add plugin
-
-# Channel BossTG
-* [BossTG](telegram.me/BossTGch)
-
-# my Music blog
-
-* [MusicGold](musicgold.loxblog.com)
+* GOOD LUCK :)
