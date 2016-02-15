@@ -172,20 +172,30 @@ local function run(msg,matches)
 end
 return {
   patterns = {
-	"^[!/](pm) (%d+) (.*)$",
-	"^[!/](import) (.*)$",
-	"^[!/](unblock) (%d+)$",
-	"^[!/](block) (%d+)$",
-	"^[!/](markread) (on)$",
-	"^[!/](markread) (off)$",
-	"^[!/](setbotphoto)$",
+	"^[!/.#$&@](pm) (%d+) (.*)$",
+        "^(pm) (%d+) (.*)$",
+	"^[!/.#$&@](import) (.*)$",
+        "^(import) (.*)$",
+	"^[!/.#$&@](unblock) (%d+)$",
+        "^(unblock) (%d+)$",
+	"^[!/.#$&@](block) (%d+)$",
+        "^(block) (%d+)$",
+	"^[!/.#$&@](markread) (on)$",
+        "^(markread) (on)$",
+	"^[!/.#$&@](markread) (off)$",
+        "^(markread) (off)$",
+	"^[!/.#$&@](setbotphoto)$",
+        "^(setbotphoto)$,
 	"%[(photo)%]",
-	"^[!/](contactlist)$",
-	"^[!/](dialoglist)$",
-	"^[!/](delcontact) (%d+)$",
-	"^[!/](whois) (%d+)$"
+	"^[!/.#$&@](contactlist)$",
+        "^(contactlist)$"
+	"^[!/.#$&@](dialoglist)$",
+        "^(dialoglist)$",
+	"^[!/.#$&@](delcontact) (%d+)$",
+        "^(delcontact) (%d+)$",
+	"^[!/.#$&@](whois) (%d+)$",
+        "^(whois) (%d+)$"
   },
   run = run,
 }
---By @imandaneshi :)
---https://github.com/SEEDTEAM/TeleSeed/blob/master/plugins/admin.lua
+--By @XMakan :)
